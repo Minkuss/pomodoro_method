@@ -1,0 +1,25 @@
+.pomodoro-main {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .pomodoro-main_timer {
+    font-size: 30px;
+  }
+  .pomodoro-main_button {
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: #EA3712;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    &:hover {
+      border: 5px solid #4DC126;
+    }
+    &:active {
+      background-color: #9C1D03;
+    }
+  }
+}
